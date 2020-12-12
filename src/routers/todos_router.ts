@@ -1,4 +1,4 @@
-import express, { Router } from 'express';
+import { Router } from 'express';
 import TodosController from '../controllers/todos_controller';
 
 const router = Router();
