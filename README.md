@@ -1,0 +1,6 @@
+# express-proxy
+
+.env:
+- NUTRITION_API_APP_ID
+- NUTRITION_API_APP_KEY
+- NUTRITION_API_USER_ID
