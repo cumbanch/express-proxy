@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import todosRouter from './routers/todos_router';
+import nutritionRouter from './routers/nutrition_router';
 import * as core from 'express-serve-static-core';
 
 class Server {
@@ -19,7 +19,7 @@ class Server {
   }
 
   private routerConfig(): void {
-    this.app.use('/todos', todosRouter);
+    this.app.use('/nutrition', nutritionRouter);
   }
 
   public start = (port: number): Promise<number> =>

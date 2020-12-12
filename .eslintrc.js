@@ -111,7 +111,6 @@ module.exports = {
     "no-undef": "error",
     "array-bracket-spacing": "error",
     "block-spacing": "error",
-    "comma-dangle": "error",
     "comma-spacing": "error",
     "comma-style": "error",
     "computed-property-spacing": "error",
